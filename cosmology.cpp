@@ -1,5 +1,7 @@
 /*
  *  COSMOLOGY FUNCTIONS FOR PYTHON
+ *
+ *  Morag Scrimgeour
  */
 
 #define pi 3.141592653589793238
@@ -29,14 +31,7 @@ void sort_arr(double* arr1, int num, int* indx1, int flag, bool replacearr)
  * Flag = 2: Sort descending
  * Flag = 1: Sort ascending
  *
- 10... done in 0 s
- 100... done in 0 s
- 1000... done in 0 s
- 10000... done in 0 s
- 100000... done in 0 s
- 1000000... done in 1 s
- 5647390... done in 5 s
- 9474168... done in 11 s
+ * Takes ~ 11s for an array of 9.5 million elements
  */
 {
 	vector<indxpair> pairArr (num);
