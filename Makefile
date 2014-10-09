@@ -6,3 +6,6 @@ library.so: cosmology.o
 
 cosmology.o: cosmology.cpp
 	$(CC) -shared -c -fPIC cosmology.cpp -o cosmology.o
+
+clean:
+	rm -f *.so
